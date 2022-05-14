@@ -19,4 +19,4 @@ inspired by "sonny sangha "
 https://instagram-clone-ten-nu.vercel.app
 
 
-![Uploading Capture 4.PNG…]()
+![Capture 4](https://user-images.githubusercontent.com/80011249/168446014-ca37bd6a-6843-4a2a-a9d5-78bf66c73199.PNG)
