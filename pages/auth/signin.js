@@ -2,7 +2,7 @@ import { getProviders, signIn as signINtoProviders } from 'next-auth/react'
 import Image from 'next/image'
 import { useEffect, useState } from 'react'
 import Header from '../../components/Header'
-import iphone from '../../public/images/iphone-with-profile.jpg'
+import Iphone from '../../public/images/iphone-with-profile.jpg'
 function signIn({ providers }) {
   const [emailAddress, setEmailAddress] = useState('')
   const [password, setPassword] = useState('')
@@ -12,15 +12,15 @@ function signIn({ providers }) {
   useEffect(() => {
     document.title = 'Log In-Instagram'
   }, [])
-  
+
   return (
     <>
       {Object.values(providers).map((provider) => (
         <div key={provider.name} className="h-screen bg-slate-50">
           <Header />
           <div className=" mx-auto flex max-w-screen-sm items-center ">
-            <div className="flex w-3/5">
-              <Image src={iphone} alt="" />
+            <div className="flex w-3/5 ">
+              <Image src={Iphone} alt="" className='' />
             </div>
             <div className="flex w-2/5 flex-col pr-2">
               <div className="flex w-full justify-center">
